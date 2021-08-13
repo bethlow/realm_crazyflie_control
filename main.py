@@ -7,15 +7,15 @@ in numerical order by ID of the crazyflie.
 
 Can be programmed to run concurrently, using threads.
 """
-from cflib import crazyflie
-from cflib.crazyflie.log import Log, LogConfig
-from cflib.crazyflie.syncLogger import SyncLogger
-from cflib.crazyflie.syncCrazyflie import SyncCrazyflie
-import cflib.crtp
-from cflib.crazyflie import Crazyflie
-from threading import Thread
 import time
 import logging
+from threading import Thread
+
+import cflib.crtp
+from cflib.crazyflie.log import Log, LogConfig
+from cflib.crazyflie.syncCrazyflie import SyncCrazyflie
+from cflib.crazyflie import Crazyflie
+
 from src.scan import scan
 from src.battery_status import get_battery_status
 import src.solo_motion_commander as mc
