@@ -88,14 +88,14 @@ if __name__=='__main__':
     address_list = [
         0xE7E7E7E701,
         0xE7E7E7E702,
-        # 0xE7E7E7E703,
-        # 0xE7E7E7E704,
-        # 0xE7E7E7E705,
-        # 0xE7E7E7E706,
-        # 0xE7E7E7E707,
-        # 0xE7E7E7E708,
-        # 0xE7E7E7E709,
-        # 0xE7E7E7E70A,
+        0xE7E7E7E703,
+        0xE7E7E7E704,
+        0xE7E7E7E705,
+        0xE7E7E7E706,
+        0xE7E7E7E707,
+        0xE7E7E7E708,
+        0xE7E7E7E709,
+        0xE7E7E7E70A,
     ]
 
     # Initialize the drivers
