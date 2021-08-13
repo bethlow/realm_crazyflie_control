@@ -37,4 +37,4 @@ def get_battery_status(uri):
     
     
     with SyncCrazyflie(uri, cf=Crazyflie(rw_cache='./cache')) as scf:
-        batt_log_async(scf, lg_battery)
+        batt_log_async(scf, lg_battery) 

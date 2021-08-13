@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.ERROR)
 class Main:
     """Class for setting up initial logging and connection
     to available crazyflies"""
-    def __init__(self, link_uri) -> None:
+    def __init__(self, link_uri):
 
         self._cf = Crazyflie(rw_cache='./cache')
 
