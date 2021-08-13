@@ -7,7 +7,6 @@ import time
 from cflib.crtp.radiodriver import crazyradio
 
 def crazyradio_scan(serial=False):
-
     print("Scanning for Crazyradio devices...")
     time.sleep(0.1)
     usb = crazyradio._find_devices()
